@@ -16,7 +16,26 @@
             <title>About US</title>
             <link rel="stylesheet" href="aboutus1.css">
          
-           
+              <!-------counter-->
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
+           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+             <script>$(document).ready(function() {
+
+                $('.counter').each(function () {
+                $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+                }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                $(this).text(Math.ceil(now));
+                }
+                });
+                });
+                
+                });</script>
 
         </head>
          
@@ -88,3 +107,35 @@
       </div>
      </div>
     </div>
+  <!---------------------------------counter--------------------- -->
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="four col-md-3">
+            <div class="counter-box colored"> <i class="fa fa-thumbs-o-up"></i> <span class="counter">111345</span>
+                <p>Donations</p>
+            </div>
+        </div>
+        <div class="four col-md-3">
+            <div class="counter-box"> <i class="fa fa-group"></i> <span class="counter">100</span>
+                <p>Meetings</p>
+            </div>
+        </div>
+        <div class="four col-md-3">
+            <div class="counter-box"> <i class="fa fa-shopping-cart"></i> <span class="counter">250</span>
+                <p>Products</p>
+            </div>
+        </div>
+        <div class="four col-md-3">
+            <div class="counter-box"> <i class="fa fa-user"></i> <span class="counter">150</span>
+                <p>Partners</p>
+            </div>
+        </div>
+    </div>
+</div>
