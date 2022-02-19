@@ -58,3 +58,13 @@ img {
     background-color: rgba(21, 20, 51, 0.8);
     z-index: -1;
 }
+/*----------contact team-----------*/
+.contact-team1{
+   
+    width: 300;
+    height: 300;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+  }
