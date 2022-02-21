@@ -65,3 +65,33 @@ form .form-control {
     border-radius: 0;
     
 }
+section {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #c8e9f3;
+}
+
+.card-effect {
+    box-shadow: var(--box-shadow);
+    background-color:#91c9da;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+
+.section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
