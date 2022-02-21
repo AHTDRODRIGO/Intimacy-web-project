@@ -14,13 +14,13 @@ body {
 h1,h2,h4,h5,h6,
 .display-4 {
     color: var(--dark);
-    font-weight: 1000;
+    font-weight: 2000;
     
 }
 h3,
 .display-5{
     color: var(--dark);
-    font-weight: 2000;
+    font-weight: 3000;
     
 }
 a {
@@ -32,10 +32,10 @@ img {
     width: 100%;
 }
 .btn {
-    padding: 15px 21px;
+    padding: 10px 15px;
     border-width: 2px;
-    border-radius: 0;
-    
+    border-radius: 5;
+    margin:2px;
 }
 .hero {
     background-image: url(A-team-bg1.webp);
@@ -54,4 +54,27 @@ img {
     left: 0;
     background-color: rgba(21, 20, 51, 0.8);
     z-index: -1;
+}
+/*-------------------------------------------team cards------------------------------------------------*/
+
+
+
+.h1-text{
+    margin-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f8f8f8, #d4eafc)
+}
+
+.container {
+    margin-top: 100px
 }
