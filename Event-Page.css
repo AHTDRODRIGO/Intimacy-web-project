@@ -13,9 +13,15 @@
 }
 
  h1,h2,h3,h4,h5,h6,
-.display-4 {
+.display-1 {
     color: var(--dark);
     font-weight: 2000;
+}
+
+h3,
+.display-5 {
+    color: var(--dark);
+    font-weight: 3000;
 }
 
 a {
@@ -26,9 +32,37 @@ a {
 img {
     width: 100%;
 }
+
 .btn {
-    padding: 13px 15px;
-    border-width: 2px;
-    border-radius: 0;
-    
+    padding: 10px 15px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 2px;
 }
+
+/*background image*/
+
+.hero {
+    background-image: url(E-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 51, 0.8);
+    z-index: -1;
+}
+
+.section {
+    padding-top: 50px;
+}
+
