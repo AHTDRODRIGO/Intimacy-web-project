@@ -104,3 +104,38 @@ img {
  .portfolio-item:hover img {
     transform: scale(1.1);
  }
+
+/*Past events*/
+
+.blog-post a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: var(--brand);
+    padding: 2px 12px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog-post h5 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.blog-post small {
+    text-transform: uppercase;
+    color: var(--brand);
+    text-decoration: underline;
+}
+
+.mx-auto {
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    padding-top: 30px;
+}
+
+.col-md-8 {
+    padding-top: 30px;
+}
