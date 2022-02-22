@@ -238,4 +238,27 @@ img {
  :hover.image-container{
    background: 	black;
  }
+/*----------------------partners----------------- */
 
+.part-para{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+  }
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card{
+      margin: 50px;
+  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+:hover.card{
+    background-color: rgba(0, 0, 0, 0.5);
+  
+}
