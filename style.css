@@ -41,7 +41,7 @@ width: 100%;
 /*--Background image--*/
 
 .hero {
-    background-image: url(team.jpg);
+    background-image: url(c-team.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
