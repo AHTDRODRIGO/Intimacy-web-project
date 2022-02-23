@@ -243,4 +243,40 @@ h1{
 p{
 	text-align: center;
 }
+/* call us*/
+.cta{
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(38, 25, 63, 0.7),rgba(4,9,30,0.7)),url(Dcall.jpg);
+    background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.cta h1{
+	color: #e4e3e3;
+}
+
+
+	.button {
+		background-color: red;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		font-weight: bold;
+		transition-duration: 0.4s;
+		font-family: 'Helvetica', sans-serif;
+	}
+	.button:hover {
+		background-color: #a3170d;
+		color: rgb(255, 255, 255);
+	}
 
