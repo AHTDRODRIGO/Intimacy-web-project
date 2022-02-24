@@ -38,7 +38,7 @@ width: 100%;
 }
 
 
-/*--Background image--*/
+/*-------------Background image------------------*/
 
 .hero {
     background-image: url(c-team.jpg);
@@ -65,9 +65,9 @@ width: 100%;
     z-index: -1;
 }
 
-/*--Background image--*/
+/*-----------------Background image--------------*/
 
-/*--Contact us form--*/
+/*----------------Contact us form----------------*/
 .get-in-touch {
     max-width: 800px;
     margin: 50px auto;
@@ -126,7 +126,7 @@ width: 100%;
     transition: transform .2s ease-in-out, 
     -webkit-transform .2s ease-in-out;
   }
- /*submit button*/
+ /*-------------submit button------------------*/
   .contact-form .submit-btn {
     display: inline-block;
     background-color: #000;
@@ -140,10 +140,25 @@ width: 100%;
     width:200px;
     cursor: pointer;
   }
-  /*--Contact us form--*/
+  /*-----------Contact us form----------------*/
 
-  /*Map section*/
+  /*-------------Map section------------------*/
   .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:75%;
+    width:100%;
+    position:absolute;
+    }
+
+  /*-------------------Map section---------------*/
+.map-container{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
